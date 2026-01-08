@@ -1,0 +1,35 @@
+[
+  {
+    "id": "email1",
+    "subject": "Discussion on System Design Tradeoffs",
+    "from": "colleague@example.com",
+    "to": "user@example.com",
+    "date": "2024-01-01T10:00:00Z",
+    "body": "Hey, I was thinking about the tradeoffs in system design. For scalability, we often sacrifice consistency. What do you think?",
+    "thread": [
+      {
+        "id": "email1",
+        "body": "Hey, I was thinking about the tradeoffs in system design. For scalability, we often sacrifice consistency. What do you think?"
+      },
+      {
+        "id": "email2",
+        "from": "user@example.com",
+        "body": "Yes, that's a classic CAP theorem issue. In distributed systems, you can't have all three: consistency, availability, partition tolerance."
+      }
+    ]
+  },
+  {
+    "id": "email3",
+    "subject": "Book Recommendations",
+    "from": "friend@example.com",
+    "to": "user@example.com",
+    "date": "2024-01-02T11:00:00Z",
+    "body": "Check out 'Designing Data-Intensive Applications'. Great for understanding tradeoffs in databases.",
+    "thread": [
+      {
+        "id": "email3",
+        "body": "Check out 'Designing Data-Intensive Applications'. Great for understanding tradeoffs in databases."
+      }
+    ]
+  }
+]

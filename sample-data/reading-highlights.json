@@ -1,0 +1,14 @@
+[
+  {
+    "id": "highlight1",
+    "book": "Building Systems",
+    "text": "Concurrency is hard because it introduces race conditions and deadlocks. Use locks carefully.",
+    "page": 45
+  },
+  {
+    "id": "highlight2",
+    "book": "System Design Interview",
+    "text": "For chat services, consider sharding by user ID to distribute load evenly.",
+    "page": 123
+  }
+]
